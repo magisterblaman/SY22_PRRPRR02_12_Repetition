@@ -25,6 +25,7 @@ namespace SY22_PRRPRR02_12_Repetition {
 
 		// Konstruktor
 		public RepetitionClass(int inputAge, string inputName) {
+			// Initiera = sätta värden på fält i konstruktorn
 			_age = inputAge;
 			_name = inputName;
 			_occupation = "dhsajhsda";
