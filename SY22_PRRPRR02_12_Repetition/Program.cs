@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 namespace SY22_PRRPRR02_12_Repetition {
 	internal class Program {
 		static void Main(string[] args) {
+			// Initiera = skapa ett objekt (new Klassnamn(...))
+			RepetitionClass repetition = new RepetitionClass(20, "Hannes");
+
+			Console.WriteLine(repetition.GetAgeInXYear(60));
 		}
 	}
 }
